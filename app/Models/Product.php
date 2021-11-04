@@ -10,6 +10,8 @@ class Product extends Model
 {
     use HasFactory;
 
+    protected $model = Product::class;
+
     protected $fillable = [
         'productTitle',
         'productText',
