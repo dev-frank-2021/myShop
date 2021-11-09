@@ -27,7 +27,7 @@ class ProductFactory extends Factory
         $no = rand(1000, 5000);
         $price = rand(29.99, 130.99);
         return [
-            'productTitle' => $this->faker->sentence,
+            'productTitle' => $this->faker->words(3, true),
             'productText' => $this->faker->text(500),
             'productNo' => $no,
             'productsDate' => $this->faker->dateTimeBetween('+0 days', '+8 years'),

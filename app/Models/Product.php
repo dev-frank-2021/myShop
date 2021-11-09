@@ -12,6 +12,8 @@ class Product extends Model
 
     protected $model = Product::class;
 
+    protected $table = 'products';
+
     protected $fillable = [
         'productTitle',
         'productText',
