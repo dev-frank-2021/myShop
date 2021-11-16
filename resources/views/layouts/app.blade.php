@@ -19,7 +19,7 @@
 </head>
 
 <body>
-
+  @include('layouts.partails.auth-navigation')
     @include('layouts.partails.main_nav')
 
     <mmain>
